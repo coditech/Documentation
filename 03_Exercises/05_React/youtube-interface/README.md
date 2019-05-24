@@ -16,7 +16,7 @@
 
 1. Read, read and read.
 1. Read all the exercise before starting.
-1. Implement the style depicted in the image below. Try to get as close as possible you can using Bootstrap or Material UI.
+1. Implement the style depicted in the image below or click [here](youtube.com.png). Try to get as close as possible you can using Bootstrap or Material UI.
 
 ![youtube.com.png](youtube.com.png)
 
