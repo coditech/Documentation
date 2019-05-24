@@ -1,7 +1,9 @@
 # Javascript Basics 2 - Working with the DOM
 
-- Get to your submission folder under the folder exercises/javascript-basics-02
+- Get to your submission folder under exercises/javascript-basics-02
 - Each step has a prepared html file to work with, use it
+- You should create a javascript file for each step whitin the step folder.
+> e.g : step_1 => index.html + Step_1.js 
 - COMMIT AFTER EACH STEP, call each commit by the name of the step
 
 ## References
