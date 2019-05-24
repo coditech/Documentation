@@ -15,14 +15,14 @@
 ## Tasks:
 
 1. Read, read and read.
-1. Read all the exercise before starting.
-1. Implement the style depicted in the image below or click [here](youtube.com.png). Try to get as close as possible you can using Bootstrap or Material UI.
+2. Read all the exercise before starting.
+3. Implement the style depicted in the image below or click [here](youtube.com.png). Try to get as close as possible you can using Bootstrap or Material UI.
     
     ![youtube.com.png](youtube.com.png)
     
-1. Give the user the auto suggest option when typing in the search box.
-1. When a user selects a video from the search list, display that video plus the 20 related videos.
-1. When a user clicks the enter button on the search box, render the first video from the search result.
+4. Give the user the auto suggest option when typing in the search box.
+5. When a user selects a video from the search list, display that video plus 20 related videos.
+6. When a user clicks the enter button on the search box, render the first video from the search result.
 
 
 ## How To
