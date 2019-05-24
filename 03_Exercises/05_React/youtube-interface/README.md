@@ -16,7 +16,7 @@
 
 1. Read, read and read.
 1. Read all the exercise before starting.
-1. Implement the style depicted in [youtube.com.png](youtube.com.png). Try to get as close as possible you can using Bootstrap or Material UI.
+1. Implement the style depicted in ![youtube.com.png](youtube.com.png). Try to get as close as possible you can using Bootstrap or Material UI.
 1. Give the user the auto suggest option when typing in the search box.
 1. When a user selects a video from the search list, display that video plus 20 related videos.
 1. When a user clicks the enter button on the search box, render the first video from the search result.
