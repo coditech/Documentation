@@ -1,4 +1,4 @@
-# SQLite Exercise
+# SQLite Test
 
 In this exercise, you will learn the basics of the Structured query language (SQL) 
 
