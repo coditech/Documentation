@@ -43,3 +43,21 @@ WHERE ID = 4;
 Result : Query executed successfully
 
 3 - DELETE FROM students WHERE ID = 4;
+
+11 - -- At line 1:
+create table employees1 as 
+SELECT employees.ID, companies.date, employees.Name
+FROM employees
+INNER JOIN companies ON employees.ID=companies.ID;
+-- At line 1:
+create table employees1 as 
+SELECT employees.ID, companies.date, employees.Name
+FROM employees
+INNER JOIN companies ON employees.ID=companies.ID;
+-- Result: query executed successfully. Took 116ms
+
+12- Select All name FROM employees1 where date < 2000
+Marc 
+
+13 - Select Company FROM employees  Where Role Like "graphic designer";
+Snapchat
