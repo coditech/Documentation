@@ -61,3 +61,33 @@ Marc
 
 13 - Select Company FROM employees  Where Role Like "graphic designer";
 Snapchat
+
+14 - SELECT MAX(Points)
+FROM students
+
+500
+
+15 - SELECT AVG(Points)
+FROM students
+
+316.666666666667
+
+16 - select name from students 
+where points = "500";
+Robert
+Jana 
+(2)
+
+17 - select name from students 
+where name like "%s%";
+Basma
+Hasan
+
+18 - SELECT * FROM students
+ORDER BY Points DESC; 
+
+5	Robert	34	M	500
+    2	Basma	25	F	      400
+7	Myriam	38	F	250
+3	Hasan	30	M	      150
+1	Alex	21	  M	      100
