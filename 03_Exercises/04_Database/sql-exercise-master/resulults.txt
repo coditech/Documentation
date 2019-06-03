@@ -30,3 +30,16 @@ Result: Query executed successfully
 7 - UPDATE students 
 SET Points = '100' WHERE Name = 'Alex';
 Result: Query executed successfully
+
+
+1 -  INSERT INTO graduates (ID, Name, Age, Gender, Points)
+SELECT * FROM students
+WHERE ID = 4
+Result: Query executed successfully
+
+2 - UPDATE graduates
+SET graduation = 08/09/2018
+WHERE ID = 4; 
+Result : Query executed successfully
+
+3 - DELETE FROM students WHERE ID = 4;
