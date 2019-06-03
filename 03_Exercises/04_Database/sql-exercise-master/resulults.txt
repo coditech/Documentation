@@ -1,0 +1,32 @@
+1 - 
+Select All Name FROM Students
+
+Alex
+Basma
+Hasan
+Jana
+Layal
+Robert
+
+2 - Select * FROM students WHERE Age > 30
+
+5 Robert 34 M 500
+6 Jana 33 F 500
+
+3 -  Select Name FROM students WHERE Gender LIKE "F" AND Age = 30
+      Result : 0
+
+4 - SELECT Points FROM students WHERE Name = "Alex"
+     
+200
+
+5 -  INSERT INTO students VALUES ('7', 'Myriam', '38', 'F', '250');
+       Result: Query executed successfully
+
+6- UPDATE students 
+SET Points = '400' WHERE Name = 'Basma';
+Result: Query executed successfully
+
+7 - UPDATE students 
+SET Points = '100' WHERE Name = 'Alex';
+Result: Query executed successfully
