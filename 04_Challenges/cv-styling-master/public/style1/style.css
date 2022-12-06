@@ -1,0 +1,204 @@
+header{
+    background-color: grey;
+    width: auto;    
+    padding-top:20px;
+    padding-left:100px; 
+    padding-bottom: 80px;
+    height:70px;
+    }
+header div{
+        display: flex;
+        margin-left: 10%;
+    }
+hgroup{
+        color:red;
+        text-align: left;
+    }
+ .content{
+       
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin:  auto;
+        width: 80%;
+ }
+         #about{
+           
+             margin-top:50px;
+         }
+         #about h3{
+            border-bottom: 1px solid #999999;
+        
+        }
+        #experiences h3{
+            border-bottom: 1px solid #999999;
+        
+        }
+        #education h3{
+            border-bottom: 1px solid #999999;
+        
+        }
+
+      #competencies{
+             margin-top:50px;
+            
+      }
+      #competencies h3{
+        border-bottom: 1px solid #999999;
+        
+    }
+
+      section h3::before{
+        display: inline-block;
+        content:" ";
+        border-radius: 50%;
+        width: 1rem;
+        height: 1rem;
+        margin:5px;
+        background-color: red;
+    }
+    
+      .experience-type {
+            color:red;
+            font-size: 18px;
+    }
+    .experience-institution::before{
+        content: "@";
+        color:red;
+        font-size:18px;
+    }
+    .experience-institution{
+        color: red;
+        font-size: 13px;
+    }
+    .experience-location::before{
+        content: "In";
+    }
+    .experience-location::after{
+        content: "on";
+    }
+    .experience-details{
+        opacity:60%;
+    }
+    .experience-date-separator{
+        color:red;
+    }
+    .experience-details{
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+      .skills-primary{margin-bottom: 20px;}
+      .skills-primary::before{
+        content:"Main";
+    }
+      .skills-secondary::before{
+        content:"Other";
+    }
+      .skill
+        {
+           background-color: #cccccc;
+           margin:10px;
+           padding: 8px;
+        }
+       
+        [data-skill="5"] span::after{
+            content:"AAAAAAAAAAAAAAAAAAAAAA";
+            color:transparent;
+        }
+        [data-skill="5"] span{
+            color:white;
+            background-color: red;
+            padding: 3px;
+            
+        }
+       
+
+        [data-skill="1"] span{
+            color:white;
+            background-color: red;
+            padding: 3px;
+        }
+        
+        [data-skill="9"] span::after{
+            content:"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
+            color:transparent;
+        }
+        [data-skill="9"] span{
+            color:white;
+            background-color: rgb(250, 43, 43);
+            padding: 3px;
+            
+        }
+
+        [data-skill="7"] span::after{
+            content:"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
+            color:transparent;
+        }
+        [data-skill="7"] span{
+            color:white;
+            background-color: rgb(250, 43, 43);
+            padding: 3px;
+            
+        }
+        [data-skill="3"] span::after{
+            content:"AAAAAAAAA";
+            color:transparent;
+        }
+        [data-skill="3"] span{
+            color:white;
+            background-color: red;
+            padding: 3px;
+            
+        }
+        .skills-secondary [data-skill="5"] span{
+            color:white;
+            background-color: rgb(250, 43, 43);
+            padding: 3px;
+        }
+   
+        #contact h3{
+            display:none;
+        }
+        #contact{
+        position: absolute;
+         top:0;
+         right:0;
+         padding-right:200px;
+         margin-top:40px;
+         
+        }
+
+        .contact{
+
+            height: 25px;;
+            margin:-15px;
+            width:600px;
+            padding:5px;
+            background-color: red;
+            color:white;
+        }
+       .contact-value{
+
+           position: relative;
+           margin-left:130px;
+           margin-top: -23px;
+           padding:6px;
+           background-color: black;
+           height: 24px;
+           width:470px;
+            }
+
+            a:link{
+                color:red; text-decoration: none;
+            }
+            .contact-skype .contact-value{
+                color:transparent;
+            }
+            a:active {
+                color:red;
+            }
+            a:visited {
+                color:red; 
+            }
+            #hobbies h3{
+                border-bottom: 1px solid #999999;  
+            }

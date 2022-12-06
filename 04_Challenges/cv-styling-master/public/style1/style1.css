@@ -1,0 +1,142 @@
+body{
+    border: 10px red solid;
+    width: 65%;
+    margin-left: 17.5%;
+    background-color: white;
+
+}
+.content{
+    display: grid;
+    grid-template-columns: 10% 37.5% 5% 37.5% 10%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+header div{
+    background-color: #999999;
+    width: 100%;
+    display: flex;
+}
+
+hgroup{
+    color: red;
+    padding-left: 10%;
+}
+figure{
+    background-color: #707070;
+    width: 110px;
+    height: 110px;
+}
+#about h3{
+    border-bottom: 1px solid #999999;
+
+}
+#about{
+    grid-column: 2 ;
+}
+ #competencies h3{
+    border-bottom: 1px solid #999999;
+    
+}
+#competencies{
+grid-column: 4;
+}
+
+
+.skills-primary:before{
+    content: "Main";
+}
+
+.skills-primary{
+
+        width: 100%;
+        background-color: #cccccc;
+        line-height: 30px;
+}
+.skills-primary :nth-child(3){
+    width: 80%;
+    background-color: red;
+    
+} 
+
+
+.skills-secondary::before{
+    content: "Other"
+}
+
+
+#experiences h3{  
+    border-bottom: 1px solid #999999
+}
+#experiences{
+    grid-column: 2;
+}
+
+#education h3{
+    border-bottom: 1px solid #999999
+}
+
+#education{
+    grid-column: 4;
+}
+
+#hobbies{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+#contact{
+    grid-column: 4;
+    grid-row: 1;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 30% 30% 20% ;
+
+#about{
+    display: grid;
+    grid-column: 3;
+    background-color: red;
+}
+.contacts{
+    display: grid;
+    grid-area: 1 / 2 / 1 / 2;
+} */
+
+/* .contacts{
+    border: 10px red solid;
+    background-color: green;
+    position: absolute;
+    bottom: 85%;
+    right: 17.5%;
+    display: flex;
+    
+}  */
+/* 
+dt{
+    background-color: red;
+    display: inline;
+    position: relative;
+    bottom: 300px;
+
+}
+dd{
+    color: red;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+} */
