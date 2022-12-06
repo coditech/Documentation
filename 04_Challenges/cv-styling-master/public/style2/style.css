@@ -1,0 +1,44 @@
+h2{
+    visibility :hidden;
+   margin:0%;
+   float:right;
+}
+header{
+    border-bottom:#CFCFCF solid 2px;
+    
+    
+}
+body{
+    margin:auto;
+    width:80%;
+    position: relative;
+}
+#about:h3{
+    visibility:hidden;
+}
+header>div{
+    display: flex;
+    margin-bottom: 10%;
+    margin:0%;
+    }
+    #about>h3{
+        visibility: hidden;
+        float:right;
+        width: 50%;
+      
+    }
+    h3{
+        float:left;
+        
+    }
+    .experience-date{
+        float:right;
+    }
+    .experience-location{
+        visibility: hidden;
+    }
+ #competencies>h3{
+    border-right: #1B1B1B 2px solid;
+    padding: 1%;
+ }
+    
