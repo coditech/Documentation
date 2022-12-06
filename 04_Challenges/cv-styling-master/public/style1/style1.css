@@ -2,11 +2,13 @@
 header{
     background-color: rgb(168, 168, 168);
 padding:20px;
+
     
 }
 header > div{
     color:red;
     display: flex;
+    
     
 
 }
