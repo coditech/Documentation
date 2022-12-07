@@ -1,2 +1,2 @@
-var name="Joe"
-alert(name)
+var x="name"
+alert(x)
