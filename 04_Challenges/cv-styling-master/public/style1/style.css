@@ -1,0 +1,277 @@
+.content {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  justify-content: center;
+  column-gap: 100px;
+  grid-gap: 50px;
+}
+
+
+img {
+  margin-left: 50px;
+  margin-top: 50px;
+  height: 100px;
+}
+
+body {
+  font-size: 15px;
+  color: black
+}
+
+hgroup {
+  color: rgb(255, 38, 0);
+}
+
+h1 {
+
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+
+hgroup {
+  float: left;
+
+}
+
+figure {
+  height: 10px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+ 
+}
+
+h3 {
+  font-size: 20px;
+  border-bottom: 1px solid rgb(218, 217, 217);
+}
+
+h3::before {
+  content: " ";
+  height: 15px;
+  width: 15px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.experience-type,
+.experience-date-separator {
+  color: rgb(255, 38, 0);
+}
+
+.experience-institution {
+  color: rgba(240, 42, 75, 0.925);
+}
+
+.experience-location,
+.day,
+.month,
+.year {
+  color: gray;
+}
+
+.contact-type {
+  color: white;
+  background-color: rgb(255, 38, 0);
+  margin-left: 20px;
+}
+
+.contact-value {
+  color: rgb(255, 38, 0);
+  background-color: black;
+  margin-left: 20px;
+}
+
+a:link {
+  color: rgb(255, 38, 0);
+  text-decoration: none;
+}
+
+.contact-email,
+.contact-skype,
+.contact-phone,
+.contact-github,
+.contact-facebook {
+  display: grid;
+  grid-template-columns: 200px 300px;
+  grid-gap: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#contact {
+  position: absolute;
+  top: 1px;
+  right: 150px;
+  width: 400px;
+  height: 50px;
+  margin-right: 300px;
+}
+
+.contents {
+  background-color: red;
+}
+
+div.skill {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 10px;
+  background-color: gray;
+  color: white;
+  width: 100%;
+}
+
+
+#contact>h3 {
+  display: none;
+}
+
+#contact>div>dl.contact.contact-email {
+  margin-top: 50px;
+
+}
+
+
+.contact-value {
+  margin-left: -2px;
+}
+
+
+
+.skills-primary .skill:first-child {
+  background-color: red;
+  width: 20%;
+
+}
+
+.skills-primary .skill:nth-child(2) {
+  background-color: red;
+  width: 5%;
+
+}
+
+.skills-primary .skill:nth-child(3) {
+  background-color: red;
+  width: 1%;
+
+}
+
+.skills-secondary .skill:nth-child(1) {
+  background-color: rgb(241, 70, 70);
+  width: 60%;
+
+}
+
+.skills-secondary .skill:nth-child(2) {
+  background-color: rgb(241, 70, 70);
+  width: 60%;
+
+}
+
+.skills-secondary .skill:nth-child(3) {
+  background-color: rgb(241, 70, 70);
+  width: 70%;
+
+}
+
+.experience-location::before {
+  content: "In"
+}
+
+.skills-primary::before {
+  content: "Main";
+}
+
+.skills-secondary::before {
+  content: "Other";
+}
+
+@media only screen and (max-width: 1660) {
+
+  #contact {
+    display: block;
+  }
+  .contact-value {
+    margin-left: 0;
+  }
+  .contact-value{
+    background-color: white;
+  }
+
+  
+}
+
+
+@media  screen and (max-width: 1500px) {
+
+
+  .content {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+
+  header {
+    width: 100%;
+
+  }
+
+  hgroup {
+    float: none;
+    width: 90%;
+    margin-left: 40px;
+
+  }
+
+  figure {
+    display: none;
+  }
+
+  #contact {
+  position: static;
+  margin-left: -37px;
+  }
+
+}
+
+.skill::before {
+  position: absolute;
+  display: block;
+  content: '';
+  height: 50px;
+  width: 90%;
+  background-color: gray;
+  z-index: -1;
+  margin-top: -18px;
+  margin-left: -17px;
+  border: 3px solid white;
+}
+
+@media all and (min-width:900px) {
+  .skill::before {
+    position: absolute;
+    display: block;
+    content: '';
+    height: 50px;
+    width: 45%;
+    background-color: gray;
+    z-index: -1;
+    margin-top: -18px;
+    margin-left: -17px;
+    border: 3px solid white;
+
+}
+.contact-value{
+  background-color: white;
+}
+}
