@@ -3,4 +3,4 @@ if (nickname == '') {
  alert("wrong format")
 }
  else 
-     alert("Welcome " +nickname) ;
+      alert("Welcome " +nickname) ;
