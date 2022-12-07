@@ -1,4 +1,4 @@
-var name1 = 'KAnj'
+var name1 = 'Kanj'
 var surname = 'Hasan'
 var city = 'beirut'
 
