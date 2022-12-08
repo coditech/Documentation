@@ -1,0 +1,3 @@
+var fname
+alert(fname);
+
