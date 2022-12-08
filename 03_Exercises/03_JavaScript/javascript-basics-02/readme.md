@@ -22,7 +22,7 @@
 
 ## Step 1
 
-1. Target the image (use `querySelector`)
+81. Target the image (use `querySelector`)
 2. Add an event listener to it (use `onMouseOver` or `addEventListener`)
 3. Change the image when the mouse is over it
 4. Commit  
