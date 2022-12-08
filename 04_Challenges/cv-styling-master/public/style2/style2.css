@@ -1,0 +1,261 @@
+
+header{
+    margin-bottom :20px;;
+}
+figure{
+    float: right;
+    transform: rotate(-20deg);
+    position: absolute;
+    margin-left: 45%;
+    top: 1px;
+   
+}
+img{
+    margin-top: 5px;
+    width: 30%;
+}
+#about p{
+    color:rgb(155, 154, 154);
+}
+#about h3{
+    display: none;
+}
+hgroup h2{
+    display: none;
+}
+#about{
+    margin-right: 40%;
+}
+
+
+.experience{
+    display:flex;
+    flex-direction: column;
+}
+body{ margin-left: 400px;
+margin-right: 400px;}
+header{
+    display: block;
+}
+
+
+hgroup{
+    border-bottom: 1px solid rgb(172, 212, 218);
+}
+.experience-location,.day,.year,.month{
+    color:lightgrey;
+    text-align: right;
+}
+.experience-type{
+    color:rgb(64, 141, 115);
+}
+
+.skills-primary{
+    display: flex;
+    flex-direction: row;
+}
+.skills-secondary{
+    display: flex;
+    flex-direction: row;
+}
+
+#contact h3{
+    display: none;
+}
+
+
+div.skill{
+    box-sizing: border-box;
+    margin:10px;
+    padding:10px;
+    background-color: rgb(57, 136, 148);
+    color:white;
+    width:20%;
+   
+  }
+
+#competencies{
+    display:grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: auto auto;
+align-items: center;
+align-items: start;}
+
+.skills-secondary{
+    grid-area: 2 / 2 / 3 / 3;
+
+}
+
+#experiences{
+    display:grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: auto auto;
+align-items: center;
+align-items: start;}
+
+.experience:nth-child(2){
+    grid-area: 2 / 2 / 3 / 3;
+
+}
+
+#education{
+    display:grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: auto auto;
+align-items: center;
+align-items: start;}
+
+.experience:nth-child(4){
+    grid-area: 2 / 2 / 3 / 3;
+
+}
+.experience:nth-child(3){
+    grid-area: 1 / 2 / 2 / 3;
+
+}
+
+ul{ margin-left: 18%;}
+
+/*Contacts*/
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+.contact-type, .contact-value{
+    visibility: hidden;
+}
+
+.contact-skype {
+display: none;
+} 
+
+
+.contact-email .contact-value::after{
+    visibility: visible;
+    content:"";
+    background-image: url( email.png );
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 50px;
+    height:50px;
+}
+
+.contact-facebook .contact-value::after{
+    visibility: visible;
+    content:"";
+    background-image: url( facebook.png );
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 50px;
+    height:50px;
+}
+.contact-phone .contact-value::after{
+    visibility: visible;
+    content:"";
+    background-image: url( phone.png );
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 50px;
+    height:50px;
+}
+.contact-github .contact-value::after{
+    visibility: visible;
+    content:"";
+    background-image: url( github.png );
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 50px;
+    height:50px;
+}
+
+#competencies h3{
+    border-right: 1px solid rgb(57, 136, 148);
+    height:100%;
+}
+
+#experiences h3{
+    border-right: 1px solid rgb(57, 136, 148);
+    height:100%;
+}
+#education h3{
+    border-right: 1px solid rgb(57, 136, 148);
+    height:100%;
+}
+
+
+
+
+#hobbies h3{
+    border-right: 1px solid rgb(57, 136, 148);
+    height:100%;
+}
+
+.skills-primary [data-skill~="5"]::after{
+    content:"★";
+} 
+.skills-primary [data-skill~="3"]::after{
+    content:"★ ★";
+} 
+.skills-primary [data-skill~="1"]::after{
+    content:"★";
+} 
+.skills-secondary [data-skill~="9"]::after{
+    content:"★ ★ ★ ★ ★";
+} 
+.skills-secondary [data-skill~="5"]::after{
+    content:"★ ★ ★ ";
+} 
+.skills-secondary [data-skill~="7"]::after{
+    content:"★ ★ ★ ★ ";
+} 
+
+.skills-secondary{
+    font-size: 10px;
+}
+
+
+/*media query*/
+
+
+
+@media only screen and (max-width: 1300px) {
+
+  #about{
+margin-bottom: 70px;
+   }
+body{ margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    width: 95%;}
+
+    figure{
+       display: none;
+       
+    }
+
+    .skills-primary, .skills-secondary{
+        width:100%;
+    }
+
+    div.skill{width:100%}
+    #competencies, #experiences, #education{
+        display:block;
+        width:100%;
+    }
+    #about {
+        width:100%;
+       
+    }
+
+    h3{
+        border-bottom: 1px solid rgb(57, 136, 148);
+    }
+
+}
