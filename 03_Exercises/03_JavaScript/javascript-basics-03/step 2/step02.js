@@ -2,13 +2,12 @@
 
 var sh = document.getElementById('show')
 var hd  = document.getElementById('hide')
-var a = document.querySelectorAll('a')
-var texts = document.getElementById('texte')
+var p = document.querySelector("#texte p");
 
 sh.addEventListener("click", function(){
     if (sh.clicked == true){
-        texts.style.display='block';       
+        p.style.display='block';       
     } if(hd.clicked == true) {
-        texts.style.display='none';   
+        p.style.display='none';   
     }
 });
