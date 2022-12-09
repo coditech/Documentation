@@ -1,0 +1,210 @@
+img {
+  position: absolute;
+  right: 8%;
+  top: 3%;
+  transform: rotate(-25deg);
+}
+header h2 {
+  display: none;
+}
+header {
+  max-width: 90%;
+  margin: 0 auto;
+
+  height: 4.5rem;
+  border-bottom: 2px solid gray;
+  margin-bottom: 8rem;
+  display: flex;
+}
+#about h3 {
+  display: none;
+}
+#about p {
+  position: absolute;
+  top: 10%;
+  width: 60%;
+}
+
+.content {
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#competencies {
+  display: grid;
+  grid-template-columns: 120px 60%;
+  grid-template-rows: 50px 50px;
+  grid-column-gap: 10px;
+}
+.skills-secondary {
+  grid-column-start: 2;
+}
+.skills-secondary,
+.skills-primary {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 60%;
+  grid-column-gap: 10px;
+  margin-top: 20px;
+  height: 40px;
+}
+.skill {
+  background-color: #349a9a;
+  display: flex;
+  align-items: center;
+  padding-left: 6px;
+}
+#competencies h3 {
+  height: 100px;
+  border-right: 2px solid gray;
+  font-style: italic;
+}
+
+#experiences,
+#education {
+  display: grid;
+  grid-template-columns: 150px 70%;
+  grid-template-rows: 200px 200px;
+  margin-top: 100px;
+}
+
+#hobbies {
+  display: flex;
+}
+.experience:nth-child(3n) {
+  grid-column-start: 2;
+}
+
+h4 {
+  color: darkcyan;
+}
+.experience-details {
+  float: right;
+  margin-top: -40px;
+  color: gray;
+}
+#hobbies ul {
+  display: grid;
+  grid-template-columns: none;
+  margin-left: 1%;
+  margin-top: 4%;
+}
+
+#experiences h3,
+#education h3 {
+  height: 340px;
+  width: 120px;
+  border-right: 1px solid black;
+  font-style: italic;
+}
+#hobbies h3 {
+  height: 340px;
+  width: 117px;
+  border-right: 1px solid black;
+  font-style: italic;
+}
+
+#contacts {
+  display: inline-block;
+  width: 100%;
+}
+.contacts {
+  flex: auto;
+  display: flex;
+  flex-direction: inherit;
+  justify-content: space-evenly;
+}
+.contact-email {
+  color: red;
+}
+
+#contact {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#contact h3 {
+  display: none;
+}
+
+dt,
+dd {
+  display: none;
+}
+
+.contact-email {
+  background: url(../images/email.png);
+  background-repeat: no-repeat;
+  background-size: 210px;
+  width: 170px;
+  height: 170px;
+}
+
+.contact-facebook {
+  background: url("../images/facebook.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 149px;
+  height: 170px;
+}
+.contact-github {
+  background: url(../images/github.png);
+  background-repeat: no-repeat;
+  background-size: 176px;
+  width: 191px;
+  height: 170px;
+}
+.contact-phone {
+  background: url(../images/phone.png);
+  background-repeat: no-repeat;
+  background-size: 164px;
+  width: 174px;
+  height: 170px;
+}
+
+.experience-date-separator {
+  color: darkcyan;
+}
+
+.skills-primary [data-skill="5"]::after {
+  content: "\2605\2605\2605";
+  color: white;
+  margin-left: 26%;
+  font-size: 26px;
+}
+
+.skills-primary [data-skill="3"]::after {
+  content: "\2605\2605";
+  color: white;
+  margin-left: 38%;
+  font-size: 26px;
+}
+
+.skills-primary [data-skill="1"]::after {
+  content: "\2605";
+  color: white;
+  margin-left: 40%;
+  font-size: 26px;
+}
+
+.skills-secondary [data-skill="9"]::after {
+  content: "\2605\2605\2605\2605\2605";
+  color: white;
+  margin-left: 20%;
+  font-size: 18px;
+}
+
+.skills-secondary [data-skill="5"]::after {
+  content: "\2605\2605\2605";
+  color: white;
+  margin-left: 36%;
+  font-size: 20px;
+}
+
+.skills-secondary [data-skill="7"]::after {
+  content: "\2605\2605\2605\2605";
+  color: white;
+  margin-left: 20%;
+  font-size: 20px;
+}

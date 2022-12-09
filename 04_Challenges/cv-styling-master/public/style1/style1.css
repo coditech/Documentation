@@ -1,0 +1,196 @@
+
+header{
+    background-color: rgb(168, 168, 168);
+padding:20px;
+
+    
+}
+header > div{
+    color:red;
+    display: flex;
+    
+    
+
+}
+
+
+hgroup{
+    color: red;
+    margin-left:10%;
+    align-items: center;
+    margin-top: 40px;
+    }
+    h2{
+        margin-left: 45px;
+    }
+    hgroup h3{
+        color: red;
+    }
+   img{
+    margin-top: 20px;
+    
+   }
+
+   #contact{
+    
+
+    width: 35%;
+    background-color: red;
+    position: absolute;
+    top: 45px;
+    right: 10%
+}
+
+
+.content {
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+    display: grid;
+    margin: 0 auto;
+}
+ 
+
+h3::before {
+    display: block;
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 50%;
+    margin-left: -30px;
+    background-color:rgba(128, 128, 128, 0.52);
+    margin-top: 28px;
+}
+
+h3::after{
+    height: 25px;
+    position: absolute;
+    content: '';
+    display: block;
+    width: 25px;
+    border-radius: 50%;
+    background: red;
+    margin-top: -25px;
+    margin-left: -29px;
+
+}
+
+dl {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 28px;
+}
+
+dt {
+    background-color: red;
+}
+
+dd{
+    background-color: black;
+}
+
+.experience-type{
+    color:red;
+}
+.experience-institution{
+    color: rgb(233, 105, 105) ;
+    
+}
+.experience-details{
+    color: grey;
+    margin-top: -19px;
+}
+.experience-date-separator{
+    color:red;
+}
+
+.experience-institution::before{
+    content: '@';
+    color:red;
+
+}
+ .skills-primary::before{
+    content: "Main";
+color:black;
+font-weight: bold;
+}
+
+.skills-secondary::before{
+    content: "Other";
+    color:black;
+    font-weight: bold;
+}
+
+.skill {
+  
+    background-color: rgb(206 206 206);
+    padding:2%;
+margin:1px;
+    display: flex;
+
+
+
+}
+
+.skills-primary [data-skill="5"] span{
+   
+    color: white;
+    width: 50%;
+    background-color: red;
+    padding: 4px;
+    margin: -2px;
+
+}
+.skills-primary [data-skill="3"] span{
+    color: white;
+    width: 30%;
+    background-color: red;
+    padding: 4px;
+    margin: -2px;
+}
+
+.skills-primary [data-skill="1"] span{
+    color: white;
+    width: 10%;
+    background-color: red;
+    padding: 4px;
+    margin: -2px;
+}
+
+.skills-secondary [data-skill="9"] span
+
+{
+    color: white;
+    width: 90%;
+    background-color: rgb(255 0 0 / 45%);
+    padding: 4px;
+    margin: -2px;
+
+}
+
+.skills-secondary [data-skill="5"] span
+
+{
+    color: white;
+    width: 50%;
+    background-color: rgb(255 0 0 / 45%);
+    padding: 4px;
+    margin: -2px;
+
+}
+
+.skills-secondary [data-skill="7"] span
+
+{
+    color: white;
+    width: 70%;
+    background-color:rgb(255 0 0 / 45%);
+    padding: 4px;
+    margin: -2px;
+
+
+}
+body{
+    margin:0% 10%;
+}

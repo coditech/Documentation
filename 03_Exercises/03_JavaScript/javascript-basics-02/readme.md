@@ -26,7 +26,6 @@
 2. Add an event listener to it (use `onMouseOver` or `addEventListener`)
 3. Change the image when the mouse is over it
 4. Commit  
-
 ## Step 2
 
 1. Target the input (use `querySelector`)
