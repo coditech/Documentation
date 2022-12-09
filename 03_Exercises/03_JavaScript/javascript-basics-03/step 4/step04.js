@@ -1,12 +1,14 @@
-var ps =document.getElementById('password');
-var cf =document.getElementById('confirmation');
+var pass =document.getElementById('password');
+var conf =document.getElementById('confirmation');
 
-function click(){
-    if(ps.value==cf.value){
-        alert("Your answer is correct");
+function Test(){
+    if(pass.value==conf.value){
+        alert("correct");
     }
     else{
-        ps.style ='border:1px solid red';
-        cf.style ='border:1px solid red';
+        conf.style ='border:1px solid red';
+        pass.style='border:1px solid red';
+        
     }
+    
 }
