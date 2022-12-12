@@ -41,3 +41,27 @@ CREATE TABLE "graduates" (
 	PRIMARY KEY("ID" AUTOINCREMENT)
 );
 
+
+
+
+
+10- INSERT INTO graduates(name, Age, Gender, points)
+SELECT 
+   name,Age,Gender,Points
+FROM 
+   students
+WHERE
+   name = 'Layal';
+
+
+
+11- UPDATE graduates
+SET Graduation = '08/09/2018'
+WHERE name = 'Layal'
+
+
+
+12- DELETE FROM students
+WHERE name = 'Layal'
+
+
