@@ -41,10 +41,6 @@ CREATE TABLE "graduates" (
 	PRIMARY KEY("ID" AUTOINCREMENT)
 );
 
-
-
-
-
 10- INSERT INTO graduates(name, Age, Gender, points)
 SELECT 
    name,Age,Gender,Points
@@ -59,9 +55,24 @@ WHERE
 SET Graduation = '08/09/2018'
 WHERE name = 'Layal'
 
-
-
 12- DELETE FROM students
 WHERE name = 'Layal'
 
+14. Produce a table that contains, for each employee, his/her name, company name, and company date.
 
+SELECT employees.name, employees.Company, companies.date
+FROM employees, companies
+WHERE employees.Company = companies.name ;	
+
+
+15.Find the name of **employees** that work in companies made before 2000.
+SELECT employees.name, employees.Company, companies.date < 2000
+FROM employees, companies
+WHERE employees.Company = companies.name;	
+
+
+16. Find the name of company that has a graphic designer.
+
+SELECT * 
+FROM employees
+WHERE Role = "Graphic Designer";
