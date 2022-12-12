@@ -76,3 +76,36 @@ WHERE employees.Company = companies.name;
 SELECT * 
 FROM employees
 WHERE Role = "Graphic Designer";
+
+18. Find the person with the highest number of points in **students**
+
+select name
+from students
+WHERE Points = (SELECT max(Points) FROM students)
+
+
+19. Find the average of points in students
+
+SELECT AVG(Points)
+FROM students;
+
+
+20. Find the number of students that have 500 points
+
+SELECT count(*)
+FROM students
+where Points = 500;
+
+
+21. Find the names of students that contains 's'
+
+SELECT name
+FROM students
+where name like '%s%'
+
+
+22. Find all students based on the decreasing order of their points
+
+SELECT *
+FROM students
+ORDER BY points DESC
