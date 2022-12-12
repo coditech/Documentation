@@ -58,53 +58,48 @@ WHERE name = 'Layal'
 12- DELETE FROM students
 WHERE name = 'Layal'
 
-14. Produce a table that contains, for each employee, his/her name, company name, and company date.
+14- SELECT e.ID, e.Name, e.Company,c.Date
+FROM employees e
+INNER JOIN companies c ON e.Company=c.Name
 
-SELECT employees.name, employees.Company, companies.date
-FROM employees, companies
-WHERE employees.Company = companies.name ;	
+15- SELECT e.Name
+FROM employees e
+INNER JOIN companies c ON e.Company=c.Name
+WHERE Date<2000
 
+16- SELECT e.Company
+FROM employees e
+INNER JOIN companies c ON e.Company=c.Name
+WHERE Role='Graphic Designer'
 
-15.Find the name of **employees** that work in companies made before 2000.
-SELECT employees.name, employees.Company, companies.date < 2000
-FROM employees, companies
-WHERE employees.Company = companies.name;	
-
-
-16. Find the name of company that has a graphic designer.
-
-SELECT * 
-FROM employees
-WHERE Role = "Graphic Designer";
-
-18. Find the person with the highest number of points in **students**
+18- Find the person with the highest number of points in **students**
 
 select name
 from students
 WHERE Points = (SELECT max(Points) FROM students)
 
 
-19. Find the average of points in students
+19- Find the average of points in students
 
 SELECT AVG(Points)
 FROM students;
 
 
-20. Find the number of students that have 500 points
+20- Find the number of students that have 500 points
 
 SELECT count(*)
 FROM students
 where Points = 500;
 
 
-21. Find the names of students that contains 's'
+21- Find the names of students that contains 's'
 
 SELECT name
 FROM students
 where name like '%s%'
 
 
-22. Find all students based on the decreasing order of their points
+22- Find all students based on the decreasing order of their points
 
 SELECT *
 FROM students
