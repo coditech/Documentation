@@ -4,10 +4,17 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+    <form className='formm'>
+    <label>
+    <input className='textt1' type="text" placeholder='Type in a city name' />
+    </label>
+   <input className='btn1' type="submit" value="Find Weather" />
+    </form>
       <header className="App-header">
+      
         <img src={logo} className="App-logo" alt="logo" />
+       
         <p>
-          Edit <code>src/App.js</code> and save to reload.
           My name is Rasha Badran
         </p>
         <a

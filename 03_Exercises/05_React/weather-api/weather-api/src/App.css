@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -12,9 +13,36 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.formm{
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  height: 5em;
+  
+}
+.textt1{
+  width:13em;
+  height: 2em;
+  margin-top: 0.5em;
+  border: 0;
+  border-bottom: 2px solid black;
+  font-family: Raleway;
+  font-size: 1em;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+  
+  
+}
+.btn1{
+  width:8em;
+  height: 2.7em;
+  margin-top: 1.5em;
+  background:rgb(108, 108, 240);
+}
 .App-header {
-  background-color: #282c34;
+  background-color:skyblue;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
