@@ -39,6 +39,7 @@ button {
 
 main > figure {
   margin-bottom: 0;
+  
 }
 
 figure {
@@ -52,6 +53,7 @@ figcaption {
   font-size: 1.3pc;
   color: white;
   margin: 1pc;
+
 }
 
 .weatherDetails > p {
