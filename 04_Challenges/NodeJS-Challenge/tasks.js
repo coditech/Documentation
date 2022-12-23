@@ -43,6 +43,9 @@ function onDataReceived(text) {
   else if(text === 'hello\n'){
     hello();
   }
+  else if (text === 'help\n'){
+    help();
+  }
   else{
     unknownCommand(text);
   }
@@ -60,7 +63,7 @@ function unknownCommand(c){
   console.log('unknown command: "'+c.trim()+'"')
 }
 
-
+const List=[hello,help]
 /**
  * Says hello
  *
@@ -70,6 +73,12 @@ function hello(){
   console.log('hello!')
 }
 
+
+function help(){
+  List.forEach(element => {console.log('-',element);
+    
+  });
+}
 
 /**
  * Exits the application
