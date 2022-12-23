@@ -72,7 +72,7 @@ const List=[hello,help]
 function hello(){
   console.log('hello!')
 }
-
+// This function lists all the the possible commands
 
 function help(){
   List.forEach(element => {console.log('-',element);
