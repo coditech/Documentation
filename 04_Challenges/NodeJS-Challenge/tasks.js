@@ -113,7 +113,7 @@ function edit(text) {
     } else {
       tasks[index] = parts.slice(2).join(" ");
       console.log(`Task ${index + 1} edited!`);
-    }
+  }
   }
 }
 
