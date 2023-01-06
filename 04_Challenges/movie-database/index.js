@@ -7,11 +7,11 @@ const port = 3000
 app.get('*', (req, res) => {
   res.send('OK')
 })
-
+  
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`)
 })
-app.get('/test', (req, res) => {
+app.get('/test', (req, res) => {    
     res.json({status:200, message:'ok'})
   })
 
@@ -116,7 +116,7 @@ app.get('/movies/add', (req, res) => {
     }
   })
   app.get('/movies/add', (req, res) => {
-    const title = req.query.title
+    const title = req.query.title     
     const year = parseInt(req.query.year)
     let rating = parseFloat(req.query.rating)
     if (!title || !year || year < 1000 || year > 9999 || isNaN(year)) {
@@ -130,3 +130,4 @@ app.get('/movies/add', (req, res) => {
       res.json({status:200, data:movies})
     }
   })
+  
